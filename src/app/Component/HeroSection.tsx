@@ -15,14 +15,18 @@ const HeroSection = () => {
           </p>
         </div>
         <div className=" col-span-5">
-          <div className=" rounded-full bg-[#181818] w-500 h-400 relative ">
-            I
-            <Image
-              src={"@"}
-              alt="hero-pfl"
-              width={300}
-              height={300}
-            />
+          <div className="rounded-full bg-[#181818] w-[250px] h-[300px] relative overflow-hidden pt-8">
+            
+            
+            <div className="absolute w-[250px] h-[300px] transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+              <Image
+                src="/images/Mosayeb_Hossain1.png"
+                alt="hero-pfl"
+                layout="fill"
+                objectFit="cover"
+                className="rounded-full"
+              />
+            </div>
           </div>
         </div>
       </div>
